@@ -1,0 +1,6 @@
+c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\bin\Debug\DataStructuresHW.exe.config
+c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\bin\Debug\DataStructuresHW.exe
+c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\bin\Debug\DataStructuresHW.pdb
+c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\obj\Debug\DataStructuresHW.csprojResolveAssemblyReference.cache
+c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\obj\Debug\DataStructuresHW.exe
+c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\obj\Debug\DataStructuresHW.pdb

@@ -4,3 +4,9 @@ c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStruc
 c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\obj\Debug\DataStructuresHW.csprojResolveAssemblyReference.cache
 c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\obj\Debug\DataStructuresHW.exe
 c:\users\mehmet\documents\visual studio 2015\Projects\DataStructuresHW\DataStructuresHW\obj\Debug\DataStructuresHW.pdb
+C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\obj\Debug\DataStructuresHW.csprojResolveAssemblyReference.cache
+C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\obj\Debug\DataStructuresHW.exe
+C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\obj\Debug\DataStructuresHW.pdb
+C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\bin\Debug\DataStructuresHW.exe.config
+C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\bin\Debug\DataStructuresHW.exe
+C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\bin\Debug\DataStructuresHW.pdb

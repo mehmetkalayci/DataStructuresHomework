@@ -68,6 +68,19 @@ namespace DataStructuresHW
             return current;
         }
         
+        public int ListCount()
+        {
+            int count = 0;
+            Student current = first;
+            while (current != null)
+            {
+                count++;
+                current = current.Next;
+            }
+            return count;
+
+        }
+
         public void DisplayList()
         {
             Student current = first;
@@ -101,27 +114,35 @@ namespace DataStructuresHW
             return currentStudent;
         }
 
-        public Student FindByStudentName(string studentName, out int i)
-        {
-            int count = 0;
-
-            Student currentStudent = first;
-            while (currentStudent.Name != studentName)
-            {
-                count++;
-
-                if (currentStudent.Next == null)
+        public string FindByStudentSurname(string studentSurname, int studentCount)
+        { 
+                string students = "";
+                Student currentStudent = first;
+                for (int i = 1; i <= studentCount; i++)
                 {
-                    i = -1;
-                    return null;
-                }
-                else
-                {
+                    if (currentStudent.Surname == studentSurname)
+                    {
+                        students += currentStudent.Number + "                    " + currentStudent.Name + "                    " + currentStudent.Surname + "                    " + i + "\n";
+                    }
                     currentStudent = currentStudent.Next;
                 }
+                return students;
+            
+        }
+
+        public string FindByStudentName(string studentName, int studentCount)
+        {
+            string students = "";
+            Student currentStudent = first;
+            for (int i = 1; i <= studentCount; i++)
+            {
+                  if (currentStudent.Name == studentName)
+                  {
+                    students += currentStudent.Number + "                    " + currentStudent.Name + "                    " + currentStudent.Surname + "                    " + i + "\n";
+                  }
+                currentStudent = currentStudent.Next;
             }
-            i = count;
-            return currentStudent;
+            return students;
         }
     }
 }

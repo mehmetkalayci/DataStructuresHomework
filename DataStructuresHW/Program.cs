@@ -50,7 +50,7 @@ namespace DataStructuresHW
                         case '2':
                             Console.WriteLine("\nÖğrenci Adı Giriniz:");
                             string name = Console.ReadLine();
-                            string finded=linkedList.FindByStudentName(name, linkedList.ListCount());
+                            string finded=linkedList.FindByStudentName(name);
                             if (!string.IsNullOrEmpty(finded))
                             {
                                 Console.WriteLine("Öğrenci numarası       Öğrenci Adı                Soyadı            Sıra No");
@@ -66,7 +66,7 @@ namespace DataStructuresHW
                         case '3':
                             Console.WriteLine("\nÖğrenci Soyadı Giriniz:"); 
                             string surName = Console.ReadLine();
-                            string finded2 = linkedList.FindByStudentSurname(surName, linkedList.ListCount());
+                            string finded2 = linkedList.FindByStudentSurname(surName);
                             if (!string.IsNullOrEmpty(finded2))
                             {
                                 Console.WriteLine("Öğrenci numarası       Öğrenci Adı                Soyadı            Sıra No");

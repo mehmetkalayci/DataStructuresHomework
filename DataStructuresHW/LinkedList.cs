@@ -25,7 +25,7 @@ namespace DataStructuresHW
             if (!this.IsEmpty())
             {
                 int i = 0;
-                if (this.FindByStudentNumber(student.Number,out i) != null)
+                if (this.FindByStudentNumber(student.Number, out i) != null)
                 {
                     return;
                 }
@@ -67,7 +67,7 @@ namespace DataStructuresHW
                 previous.Next = current.Next;
             return current;
         }
-        
+
         public int ListCount()
         {
             int count = 0;
@@ -93,13 +93,11 @@ namespace DataStructuresHW
 
         public Student FindByStudentNumber(int studentNumber, out int i)
         {
-            int count = 0;
+            int count = 1;
 
             Student currentStudent = first;
             while (currentStudent.Number != studentNumber)
             {
-                count++;
-
                 if (currentStudent.Next == null)
                 {
                     i = -1;
@@ -109,37 +107,41 @@ namespace DataStructuresHW
                 {
                     currentStudent = currentStudent.Next;
                 }
+                count++;
             }
             i = count;
             return currentStudent;
         }
 
-        public string FindByStudentSurname(string studentSurname, int studentCount)
-        { 
-                string students = "";
-                Student currentStudent = first;
-                for (int i = 1; i <= studentCount; i++)
-                {
-                    if (currentStudent.Surname == studentSurname)
-                    {
-                        students += currentStudent.Number + "                    " + currentStudent.Name + "                    " + currentStudent.Surname + "                    " + i + "\n";
-                    }
-                    currentStudent = currentStudent.Next;
-                }
-                return students;
-            
-        }
-
-        public string FindByStudentName(string studentName, int studentCount)
+        public string FindByStudentSurname(string studentSurname)
         {
+            int total = ListCount();
+
             string students = "";
             Student currentStudent = first;
-            for (int i = 1; i <= studentCount; i++)
+            for (int i = 1; i <= total; i++)
             {
-                  if (currentStudent.Name == studentName)
-                  {
+                if (currentStudent.Surname == studentSurname)
+                {
                     students += currentStudent.Number + "                    " + currentStudent.Name + "                    " + currentStudent.Surname + "                    " + i + "\n";
-                  }
+                }
+                currentStudent = currentStudent.Next;
+            }
+            return students;
+
+        }
+
+        public string FindByStudentName(string studentName)
+        {
+            int total = ListCount();
+            string students = "";
+            Student currentStudent = first;
+            for (int i = 1; i <= total; i++)
+            {
+                if (currentStudent.Name == studentName)
+                {
+                    students += currentStudent.Number + "                    " + currentStudent.Name + "                    " + currentStudent.Surname + "                    " + i + "\n";
+                }
                 currentStudent = currentStudent.Next;
             }
             return students;

@@ -10,3 +10,8 @@ C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-m
 C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\bin\Debug\DataStructuresHW.exe.config
 C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\bin\Debug\DataStructuresHW.exe
 C:\Users\vehbican\Desktop\DataStructuresHomework-master\DataStructuresHomework-master\DataStructuresHW\bin\Debug\DataStructuresHW.pdb
+C:\Users\Mehmet\Desktop\DataStructuresHomework\DataStructuresHW\bin\Debug\DataStructuresHW.exe.config
+C:\Users\Mehmet\Desktop\DataStructuresHomework\DataStructuresHW\bin\Debug\DataStructuresHW.exe
+C:\Users\Mehmet\Desktop\DataStructuresHomework\DataStructuresHW\bin\Debug\DataStructuresHW.pdb
+C:\Users\Mehmet\Desktop\DataStructuresHomework\DataStructuresHW\obj\Debug\DataStructuresHW.exe
+C:\Users\Mehmet\Desktop\DataStructuresHomework\DataStructuresHW\obj\Debug\DataStructuresHW.pdb
